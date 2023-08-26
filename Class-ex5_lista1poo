@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CotacaoDolar
+{
+    internal class ClassCotacaoDolar
+    {
+        internal class Multi
+        {
+            #region Atributos
+            private double b;
+            private double a;
+            private double resultado;
+            #endregion
+
+            #region MetodosInterface
+            public void setB(double p) 
+            {
+                b = p;
+            }
+            public void setA(double o) 
+            {
+                a = o;
+            }
+            public double getB()
+            {
+                return b;
+            }
+            public double getA()
+            {
+                return a;
+            }
+            public double getresultado()
+            {
+                return resultado;
+            }
+            #endregion
+            #region Método funcional
+            public void calcular()
+            {
+                resultado = a / b;
+            }
+            #endregion
+        }
+    }
+}

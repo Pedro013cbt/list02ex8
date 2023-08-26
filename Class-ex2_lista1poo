@@ -17,15 +17,15 @@ namespace AreaRetangulo
             #endregion
 
             #region MetodosInterface
-            public void setB(int p) //recebe 
+            public void setB(int p) 
             {
                 b = p;
             }
-            public void setA(int o) //recebe 
+            public void setA(int o) 
             {
                 a = o;
             }
-            public int getB()// retorna 
+            public int getB()
             {
                 return b;
             }
@@ -33,7 +33,7 @@ namespace AreaRetangulo
             {
                 return a;
             }
-            public int getresultado()//retorna resultado
+            public int getresultado()
             {
                 return resultado;
             }

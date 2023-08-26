@@ -16,15 +16,15 @@ namespace ConversorMilhas
             #endregion
 
             #region MetodosInterface
-            public void setA(int p) //recebe 
+            public void setA(int p) 
             {
                 a = p;
             }
-            public double getA()// retorna 
-            {
+            public double getA()
+        
                 return a;
             }
-            public double getresultado()//retorna resultado
+            public double getresultado()
             {
                 return resultado;
             }

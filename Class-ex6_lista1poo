@@ -16,15 +16,15 @@ namespace DoisValoresIguais
             private double resultado;
             #endregion
             #region MetodosInterface
-            public void setB(double p) //recebe 
+            public void setB(double p) 
             {
                 this.b = p;
             }
-            public void setA(double o) //recebe 
+            public void setA(double o) 
             {
                 this.a = o;
             }
-            public double getB()// retorna 
+            public double getB()
             {
                 return this.b;
             }
@@ -32,7 +32,7 @@ namespace DoisValoresIguais
             {
                 return this.a;
             }
-            public double getresultado()//retorna resultado
+            public double getresultado()
             {
                 return this.resultado;
             }
